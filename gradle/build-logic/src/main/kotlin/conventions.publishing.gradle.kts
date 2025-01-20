@@ -6,9 +6,10 @@ plugins {
 }
 
 indra {
-    github("Incendo", "cloud-minecraft") {
+    publishAllTo("sayanrepo", "https://repo.sayandev.org/snapshots")
+    /*github("Incendo", "cloud-minecraft") {
         ci(true)
-    }
+    }*/
     mitLicense()
 
     configurePublications {
